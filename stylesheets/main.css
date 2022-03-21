@@ -1,2 +1,42 @@
-head { background-color; black;}
-title {background-color: black; color: white; text-align: left;}
+
+
+
+body {background-color: black;}
+
+.banner {background: black; color: white; text-indent: 20px;}
+
+.p {color: white;}
+
+.nav {background-color: navy; color: white;}
+
+a.navlinks {
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 0px;
+    background: navy;
+    color: white;
+    font-size:13px;
+  }
+
+.centerphoto {
+    background-image: "/images/1.jpg";
+    background-repeat: no=repeat;
+    background-position: center;
+    background-attachment: scroll;}
+
+.bigphototext {
+    color: white;
+    font: helvetica;
+    font-size: 16px;
+    opacity: transparent;
+    text-indent: 25px;
+}
+
+.bodytext {
+  text-alignment: justify;
+  color: white;
+  text-size: 12px;
+  margin: 20px;
+  background-color;rgb(80,80,80);
+}
