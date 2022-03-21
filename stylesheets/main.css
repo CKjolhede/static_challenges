@@ -1,42 +1,40 @@
 
 
-
-body {background-color: black;}
-
-.banner {background: black; color: white; text-indent: 20px;}
+body {padding: 0px; font-family: helvetica;}
+.banner {margin: 0px; padding: 10px 0px; background: black; color: white; text-indent: 20px;  font-size: 32px}
 
 .p {color: white;}
 
-.nav {background-color: navy; color: white;}
+.nav {padding: 10px 0px; background-color:rgb(20,90,256); color: white; text-align: center;}
 
 a.navlinks {
     text-align: center;
-    padding-left: 14px;
-    padding-right: 14px;
-    margin: 0px;
-    background: navy;
+    padding-right: 250px;
+    margin: 20px;
+    background: inherit;
     color: white;
-    font-size:13px;
+    font-size:18px;
   }
 
 .centerphoto {
-    background-image: "/images/1.jpg";
-    background-repeat: no=repeat;
-    background-position: center;
-    background-attachment: scroll;}
-
-.bigphototext {
+    background: url(../images/1.jpg) no-repeat center center scroll;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    height: 600px;
     color: white;
     font: helvetica;
-    font-size: 16px;
-    opacity: transparent;
+    font-size: 28px;
     text-indent: 25px;
+    padding-top: 20px;
 }
+.bodytextbox {background-color:rgb(20,20,20);}
 
 .bodytext {
-  text-alignment: justify;
+  text-align: justify;
+  font-size: 20px;
+  text-indent: 20px;
   color: white;
-  text-size: 12px;
-  margin: 20px;
-  background-color;rgb(80,80,80);
+  margin: 30px;
 }
