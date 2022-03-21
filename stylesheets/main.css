@@ -1,19 +1,20 @@
 
 
-body {padding: 0px; font-family: helvetica;}
+body {padding: 0px; font-family: helvetica; margin: 0px;}
 .banner {margin: 0px; padding: 10px 0px; background: black; color: white; text-indent: 20px;  font-size: 32px}
 
 .p {color: white;}
 
-.nav {padding: 10px 0px; background-color:rgb(20,90,256); color: white; text-align: center;}
+.nav {padding: 10px 0px; background-color:rgb(0,48,65); color: white; text-align: center;}
 
 a.navlinks {
     text-align: center;
-    padding-right: 250px;
-    margin: 20px;
-    background: inherit;
+    text-decoration:none;
+    padding: 0% 10%;
+    margin: 0px;
     color: white;
     font-size:18px;
+    t
   }
 
 .centerphoto {
@@ -26,15 +27,17 @@ a.navlinks {
     color: white;
     font: helvetica;
     font-size: 28px;
-    text-indent: 25px;
+    text-indent: 30px;
     padding-top: 20px;
+    margin: 0px;
 }
-.bodytextbox {background-color:rgb(20,20,20);}
+.bodytextbox {background-color:rgb(20,20,20);
+  margin: 0px;}
 
 .bodytext {
-  text-align: justify;
+  text-align: left;
   font-size: 20px;
-  text-indent: 20px;
+
   color: white;
-  margin: 30px;
+  margin: 0px 60px;
 }
